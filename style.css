@@ -1,0 +1,71 @@
+/* Sayfanın genel ayarları */
+body {
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif; /* Modern yazı tipi */
+    background-color: #f4f4f4; /* Hafif gri, göz yormayan arka plan */
+    color: #333; /* Tam siyah değil, koyu gri (daha premium durur) */
+    text-align: center; /* Her şeyi ortala */
+    margin: 0;
+    padding: 50px;
+}
+
+/* Ana Başlık */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Alt Başlık */
+h2 {
+    color: #7f8c8d;
+    font-weight: 300; /* Daha ince, zarif yazı */
+    font-size: 1.5rem;
+}
+
+/* Çizgi */
+hr {
+    width: 100px; /* Çizgiyi kısalt */
+    border: 1px solid #bdc3c7;
+    margin: 30px auto; /* Üstten alttan boşluk ver, ortala */
+}
+
+/* Paragraf */
+p {
+    line-height: 1.6; /* Satır aralarını açar, okunabilirliği artırır */
+    max-width: 600px; /* Yazı çok yayılmasın, derli toplu dursun */
+    margin: 0 auto 30px auto; /* Ortala */
+}
+
+/* Liste (Müşteriler) */
+ul {
+    list-style-type: none; /* O çirkin siyah noktaları kaldır */
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Hafif gölge ver */
+}
+
+/* Buton Tasarımı - En Önemli Kısım */
+button {
+    background-color: #000; /* Premium siyah */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 50px; /* Tam yuvarlak köşeler */
+    cursor: pointer; /* Üzerine gelince el işareti çıksın */
+    transition: transform 0.2s; /* Animasyon süresi */
+}
+
+button:hover {
+    transform: scale(1.05); /* Üzerine gelince hafif büyüsün */
+    background-color: #333;
+}
